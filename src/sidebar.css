@@ -5,3 +5,39 @@
     height: 100vh;
     background-color: #2f3135;
 }
+
+.sidebar_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2f3135;
+    color: white;
+    border-bottom: 3px solid #26282c;
+}
+
+.sidebar_channels {
+    flex: 1;
+}
+
+.sidebar_addChannel {
+    cursor: pointer;
+}
+
+.sidebar_addChannel:hover {
+    color: white;
+}
+
+.sidebar_channelsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: gray;
+}
+
+.sidebar_header {
+    display: flex;
+    align-items: center;
+}
